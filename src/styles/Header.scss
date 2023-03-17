@@ -1,0 +1,51 @@
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+    border-bottom: 1px solid #eee;
+    background-color: #007b40;
+    &__logo {
+    
+            max-height: 160px;
+            object-fit: cover;
+            width: 80%;
+            height: 80%;}
+    
+    &__title {
+        font-size: 1.5rem;
+        color: #fff;
+    }
+
+    &__input {
+        padding: 1rem;
+        width: 40rem;
+        border: 2px solid #ddd;
+        border-radius: 3rem;
+        background-color: #f8f8f8;
+        outline: none;
+        transition: all ease 0.3s;
+
+        &:focus {
+            border-color: #007b40;
+            background-color: #fff;
+        }
+    }
+    &__container{
+        gap: 100px;
+        margin: 0 40px 0 100px; 
+    }
+    &__user {
+        
+            border: 3px solid #ddd;
+                border-radius: 1rem;
+                max-height: 100px;
+                object-fit:cover;
+                width: 80%;
+                height: 80%;
+        
+        
+    }
+    
+   
+}
