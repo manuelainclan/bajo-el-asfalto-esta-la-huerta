@@ -2,6 +2,7 @@ import "../styles/core/Reset.scss";
 import '../styles/App.scss';
 import Header from './Header';
 import LateralNav from './LateralNav';
+import NewsList from "./NewsList";
 
 
 function App() {
@@ -11,9 +12,10 @@ function App() {
     
         <Header/>
         
-      <body className="body">  
+      <main className="main">  
         <LateralNav/>
-      </body>
+        <NewsList/>
+      </main>
 
     </div>
   );
